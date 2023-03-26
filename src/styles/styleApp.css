@@ -1,0 +1,37 @@
+* {
+    background-color: #0c1362;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.create-title-label {
+    text-align: center;
+}
+
+.note-input-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.note-input-form textarea {
+    background-color: white;
+    color: black;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+#input-body {
+    height: 130px;
+}
+
+.note-input-form button {
+    background-color: green;
+    margin-bottom: 10px;
+}

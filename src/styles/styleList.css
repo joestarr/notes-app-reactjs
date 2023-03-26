@@ -1,0 +1,11 @@
+.notes-list {
+    padding: 10px;
+    height: 500px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

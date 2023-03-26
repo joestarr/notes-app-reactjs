@@ -1,0 +1,16 @@
+.notes-display-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.notes-label {
+    font-size: 40px;
+    margin-top: 70px;
+    font-weight: 900;
+}
+
+.empty-label {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}

@@ -1,0 +1,66 @@
+* {
+    color: black;
+}
+
+.note-body {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.button-flex {
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 25%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.note-title-container {
+    display: flex;
+    flex-basis: 25%;
+    background-color: white;
+    color: black;
+}
+
+.note-title {
+    color: white;
+    font-size: 25px;
+    align-self: center;
+    flex-basis: 98%;
+    width: 500px;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: auto;
+    overflow-wrap: anywhere;
+}
+
+.dot {
+    align-self: center;
+    margin-right: 5px;
+    flex-basis: 2%;
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.note-content {
+    color: white;
+    font-size: 20px;
+    flex-basis: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow-wrap: anywhere;
+    overflow: auto;
+}
